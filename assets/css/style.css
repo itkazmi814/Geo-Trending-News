@@ -1,0 +1,296 @@
+*, *:before, *:after {box-sizing:  border-box;}
+
+html, body{
+  /*used for sticky footer*/
+  height: 100%;
+}
+
+body{
+  min-height: 30%;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ line-height: 1.7;
+ background-image: url('../images/dust_@2X.png');
+}
+
+footer {
+  background-color: #333 ;
+  color: white;
+  padding: 7px;
+  position: relative;
+  font-size: 12px;
+}
+
+
+.logo-box{
+  z-index: 99;
+  height: 60px;
+  width: 60px;
+  position:fixed;
+  left:5;
+  top:0;
+  opacity: .8;
+}
+
+.logo-holder{
+  position: absolute;
+  top: 0px;
+  height: 60px;
+  width: 60px;
+}
+
+
+.topic-list-item{
+  text-transform: uppercase;
+  border-radius: 0;
+  color:#e10a0a;
+  font-size: 13px;
+  /*border-right: solid 1px #e10a0a;*/
+}
+
+.topic-list-item:last-child{
+  border-right: none;
+}
+
+.topic-list-item:hover{
+  background-color: #e10a0a;
+  color: white;
+}
+
+
+.search-btn{
+  color: white;
+  background-color: #222;
+  border-color: white;
+}
+
+.search-btn:hover{
+  color: gray;
+  border-color: gray;
+}
+
+.save-btn{
+  background-color: none;
+  border-color: #e10a0a;
+  color: #e10a0a;
+}
+
+.save-btn:hover{
+  color: white;
+  background-color: #e10a0a;
+
+}
+
+.article-text{
+  font-size: 15px;
+  font-weight: 200;
+  color: #333;
+}
+
+.article-title {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.article-title a{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.article-title a:hover {
+  text-decoration: none;
+  color: #e10a0a;
+}
+
+.article-date{
+  font-size: 12px;
+  font-weight: 500;  
+  text-transform: uppercase;
+}
+
+.card-header{
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase; 
+}
+
+.card{
+  border-radius: 0;
+  border: none
+}
+
+.card-shadow{
+  border-radius: 0;
+  border: none;
+  background: #F7F7F9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title a{
+  color: black;
+}
+
+.card-title a:hover{
+  color: gray;
+}
+
+.navbar{
+  background-color: #333;
+  min-height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item li{
+  color: #e10a0a;
+}
+
+.nav-item:hover{
+  background-color: #212121;
+  color: white;
+}
+
+.navbar-toggler {
+ border: none;
+}
+
+.article-content{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 200;
+  color: grey;
+}
+
+#main{
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+#article-container{
+  background: none;
+}
+
+/*sets css for log in/sign up modal*/
+#log-in-button {
+  background-color: #e10a0a;
+  border-color: #e10a0a;
+}
+
+#log-in-button:hover {
+  color: #ccc;
+}
+
+#log-in-error {
+  margin-top: 15px;
+}
+
+#log-in-error { 
+  display: none 
+}
+
+#logo-name{
+  padding-left: 80px;
+}
+
+#topic-list{
+  width: 100%;
+  background: none;
+}
+
+.img-article{
+  width: 100px;
+  height: 100px;
+}
+
+.breaking-news-scroll {
+  overflow-y: scroll; 
+  height:435px;
+}
+
+.breaking-news-title { 
+  border-bottom: 1px solid lightgray;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.breaking-news-title a{
+  font-size: 14px;
+  color: black;
+}
+
+.breaking-news-title a:hover{
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+#breaking-news-header {
+  background-color: #e10a0a;
+  width: 100%;
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scrolling-news{
+  display:inline-block;
+  margin-right: 10px;
+  color: black;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.scrolling-news a:hover{
+  text-decoration: none;
+  color: #e10a0a;
+}
+
+/*sets css for my account modal*/
+.my-account-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.my-account-container h3 {
+  margin: 20px 0;
+}
+
+#my-account-name {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1380px) {
+  #main-content-wrapper{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #main-content-wrapper{
+    width:70%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  #main-content-wrapper{
+    width: 70%;
+  }  
+  .navbar{
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #logo-name{
+    color: #333;
+  }
+  #main-content-wrapper{
+    width: 95%;
+  }
+}
