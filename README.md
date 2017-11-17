@@ -1,6 +1,6 @@
 # Geo-Trending-News
 
-[Click to view deployed application.](https://itkazmi814.github.io/Geo-Trending-News/)
+[View the deployed app](https://itkazmi814.github.io/Geo-Trending-News/)
 
 ## Description
 
