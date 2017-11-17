@@ -1,19 +1,20 @@
 # Geo-Trending-News
 
-##Description
+[Click to view deployed application.](https://itkazmi814.github.io/Geo-Trending-News/)
 
-Some text
+## Description
 
-### NPM Packages
-* Inquirer
-* MySQL
-* Console.Table
+Search for currently trending news based on location and topic.
 
-### Customer View
-* Run: node bamazonCustomer.js
+### Using Geo Trending News
 
-### Manager View
-* Run: node bamazonManager.js
+Search via any combination of selecting a topic, clicking a location on the map, or entering into the search bar. Click on an article to view the full result.
 
-### Supervisor View
-* Run: node bamazonSupervisor.js
+### Technologies Used
+
+* Google Maps API
+* Google News API
+* Bootstrap 4
+* HTML
+* CSS
+
