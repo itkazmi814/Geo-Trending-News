@@ -1,10 +1,8 @@
 # Geo-Trending-News
 
 ##Description
-Some text
 
-## [Video Walkthrough](https://youtu.be/d5XfUrNUvG4)
-View to see detailed functionality
+Some text
 
 ### NPM Packages
 * Inquirer
