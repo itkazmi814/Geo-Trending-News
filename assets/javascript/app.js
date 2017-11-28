@@ -141,7 +141,7 @@ function search() {
 				// Request headers
 				xhrObj.setRequestHeader(
 					"Ocp-Apim-Subscription-Key",
-					"c4f6265d938341ba8234937653647f7d"
+					"89d0995d610d4914a8c271f6e5ca8c7f"
 				);
 			},
 			type: "GET"
@@ -228,7 +228,7 @@ function search() {
 				}
 			})
 			.fail(function() {
-				alert("error");
+				console.log("error");
 			});
 	}
 } // *****  Bing News API Section *****
