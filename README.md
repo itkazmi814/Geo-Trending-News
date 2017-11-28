@@ -1,9 +1,8 @@
 # Geo-Trending-News
 
-[View the deployed app](https://itkazmi814.github.io/Geo-Trending-News/)
-
-
 NOTE: The main search functionality is currently broken and is a WIP. My main focus and contribution to this project was in the front end design and layout. This was developed in the beginning of my venture into development and is undergoing a complete overhaul.
+
+[View the deployed app](https://itkazmi814.github.io/Geo-Trending-News/)
 
 ## Description
 
