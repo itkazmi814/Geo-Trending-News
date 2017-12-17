@@ -2,6 +2,12 @@
 
 NOTE: The main search functionality is currently broken and is a WIP. My main focus and contribution to this project was in the front end design and layout. This was developed in the beginning of my venture into development and is undergoing a complete overhaul.
 
+Immediate Changes to be Implemented
+* Move to React front end
+* Implement Postgres for data storage
+* Auth0 authentication
+* Move to more stable news API implementation
+
 [View the deployed app](https://itkazmi814.github.io/Geo-Trending-News/)
 
 ## Description
