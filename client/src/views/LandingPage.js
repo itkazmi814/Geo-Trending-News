@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Navbar } from "../components/Navbar/Navbar.js";
-//import scrolling news
-//import breaking news
-//import SearchResultsContainer
-//import SearchContainer
+import AppBar from "../components/AppBar/AppBar";
+import ScrollingNewsContainer from "../components/ScrollingNews/ScrollingNewsContainer";
+import InteractiveSearchArea from "../components/InteractiveSearchArea/SearchContainer";
+import SearchResultsContainer from "../components/SearchResults/SearchResultsContainer";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 class LandingPage extends Component {
 	state = {
@@ -15,8 +15,12 @@ class LandingPage extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar />
-				<p> Hello World </p>
+				<MuiThemeProvider>
+					<AppBar />
+					<ScrollingNewsContainer />
+					<InteractiveSearchArea />
+					<SearchResultsContainer />
+				</MuiThemeProvider>
 			</div>
 		);
 	}
